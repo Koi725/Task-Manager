@@ -22,13 +22,16 @@ while True:
         print("Invalid input input ")
         continue
     if op == 1:
-        add_task()
+        task = input("pls enter the task title :")
+        add_task(task)
     elif op == 2:
         show_tasks()
     elif op == 3:
-        delete_task()
+        id = int(input("pls enter the task id : "))
+        delete_task(id)
     elif op == 4:
-        mark_done()
+        id = int(input("pls enter the task id : "))
+        mark_done(id)
     elif op == 5:
         print("Exiting form the programe..")
         break

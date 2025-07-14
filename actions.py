@@ -21,6 +21,7 @@ def show_tasks():
 
 
 def delete_task(task_id):
+    task_id = int(task_id)
     data = read_data()
     tasks = [t for t in data.get("tasks", []) if t["id"] != task_id]
     data["tasks"] = tasks
@@ -28,6 +29,7 @@ def delete_task(task_id):
 
 
 def mark_done(task_id):
+    task_id = int(task_id)
     data = read_data()
     for t in data.get("tasks", []):
         if t["id"] == task_id:
