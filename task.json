@@ -1,0 +1,30 @@
+{
+  "tasks" : [
+    {
+      "id" : "1",
+      "title" : "go the gym",
+      "status" : "false"
+    },
+
+    {
+      "id" : "2", 
+      "title" : "Studing",
+      "status" : "false"
+    },
+    {
+      "id" : "3",
+      "title" : "Meditation",
+      "status" : "false"
+    }, 
+    {
+      "id" : "4", 
+      "title" : "walking",
+      "status" :" false "
+    },
+    {
+      "id" : "5",
+      "title" : "gaming",
+      "status" : "true"
+    }
+  ]
+}
